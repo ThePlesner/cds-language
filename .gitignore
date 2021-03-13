@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#assignment_data - avoiding uploading the huge datasets from assignments to github
+assignment_data
+
 # C extensions
 *.so
 
@@ -127,3 +130,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Shell scripts
+./create_lang_venv.sh

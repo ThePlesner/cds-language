@@ -2,9 +2,9 @@
 
 VENVNAME=lang101
 
-python3 -m venv $VENVNAME
-source $VENVNAME/bin/activate
-pip install --upgrade pip
+python -m venv $VENVNAME
+source $VENVNAME/scripts/activate
+pip install --upgrade pip --user
 
 pip install ipython
 pip install jupyter
