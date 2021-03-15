@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-VENVNAME=network
+VENVNAME=network_venv
 
 python -m venv $VENVNAME
-source $VENVNAME/scripts/activate
-pip install --upgrade pip
+source $VENVNAME/Scripts/activate
+pip install --upgrade pip --user
 
 test -f requirements.txt && pip install -r requirements.txt
 
