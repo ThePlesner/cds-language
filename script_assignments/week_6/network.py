@@ -12,5 +12,17 @@ import networkx as nx
 import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = (20,20)
 
-def main():
+import argparse
+
+def main(edgelist_path, ):
     
+
+
+if __name__ = '__main__':
+    ap = argparse.ArgumentParser()
+    ap.add_argument('-p', '--path', required=True, help='Path to data folder')
+
+
+    args = ap.parse_args()
+
+
